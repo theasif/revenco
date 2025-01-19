@@ -2003,6 +2003,7 @@ body.royal_loader {
 /* Home 1 Partner */
 .partner-warp-h1 img {
   margin-bottom: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 .partner-img {
   opacity: .8;
@@ -5295,12 +5296,31 @@ ul.pagination li.active a {
 }
 .services-detail-content{
   background: #f6f6f6;
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   border-radius: 5px;
   margin-top: 20px;
 }
 .services-detail-content ul{
   padding-left: 20px;
+}
+.services-detail-content h5{
+  margin-top: 20px;
+}
+.services-detail-content .types-of{
+ 
+  margin-bottom: 80px;
+}
+.services-detail-content .types-of div{
+  background: #0a2c4e;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.services-detail-content .types-of div p{
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
 }
 .overview-services {
   position: relative;
@@ -7021,7 +7041,7 @@ small.time {
 }
 .sl-s2 {
   font-size: 60px;
-  color: #fff;
+  color: #ffb600;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
 }
